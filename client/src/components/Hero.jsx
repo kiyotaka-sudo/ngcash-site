@@ -189,7 +189,7 @@ export default function Hero() {
                   <strong>{(result.amountSent + result.fees).toFixed(2)} {result.fromCurrency}</strong>
                 </div>
                 <p className="modal-footer-text">
-                  {t('modal_contact')}<br/>{t('modal_contact2')}
+                  {t('modal_contact')}
                 </p>
               </div>
             )}
