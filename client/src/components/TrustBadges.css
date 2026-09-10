@@ -1,0 +1,37 @@
+.trust {
+  background-color: var(--color-bg);
+  text-align: center;
+  padding: 60px 0 40px;
+}
+
+.trust-content {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trust-icon-wrapper {
+  margin-bottom: 24px;
+}
+
+.trust-logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.trust-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--color-red);
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.trust-desc {
+  color: var(--color-gray);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}

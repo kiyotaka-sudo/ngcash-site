@@ -1,0 +1,128 @@
+.contact-page {
+  background-color: var(--color-bg-alt);
+  min-height: 100vh;
+}
+
+.page-banner-content h1.text-blue {
+  color: #3b82f6; /* Adaptation de la couleur accentuée du titre sur l'image */
+  font-size: 3.5rem;
+}
+
+.contact-section {
+  padding-top: 40px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 32px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Contact Info Block */
+.contact-info-block {
+  background-color: #0b253a; /* Bleu très sombre inspiré du modèle */
+  color: var(--color-white);
+  padding: 40px 32px;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-soft);
+}
+
+.contact-info-block h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.contact-info-block p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* Form Block */
+.contact-form-block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-text-dark);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--color-gray-border);
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  background-color: #fafafa;
+}
+
+.form-group textarea {
+  resize: vertical;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-red);
+  box-shadow: 0 0 0 3px rgba(235, 0, 27, 0.1);
+  background-color: var(--color-white);
+}
+
+.form-group.full-width {
+  width: 100%;
+}
+
+.contact-form-block button {
+  align-self: flex-start;
+  margin-top: 16px;
+}
+
+.form-feedback {
+  font-size: 0.9rem;
+  padding: 12px 16px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.form-feedback.success {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.form-feedback.error {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
