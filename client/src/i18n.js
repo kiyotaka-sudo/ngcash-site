@@ -37,7 +37,7 @@ const resources = {
       modal_sent: 'Montant à envoyer:',
       modal_fees: 'Frais à payer:',
       modal_total: 'Total à payer:',
-      modal_contact: 'Communiquer avec nous au +1 514 980 6660 | +212 694 683 851',
+      modal_contact: 'Communiquer avec nous au +212 695 433 269 pour poursuivre le transfert',
       modal_contact2: 'pour poursuivre le transfert',
       modal_error: 'Impossible de calculer. Veuillez vérifier votre connexion au serveur.',
 
@@ -138,7 +138,7 @@ const resources = {
       modal_sent: 'Amount to send:',
       modal_fees: 'Fees:',
       modal_total: 'Total to pay:',
-      modal_contact: 'Contact us at +1 514 980 6660 | +212 694 683 851',
+      modal_contact: 'Contact us at +212 695 433 269 to proceed with the transfer',
       modal_contact2: 'to complete the transfer',
       modal_error: 'Unable to calculate. Please check your server connection.',
 
@@ -231,7 +231,7 @@ const resources = {
       modal_sent: 'Monto a enviar:',
       modal_fees: 'Comisiones:',
       modal_total: 'Total a pagar:',
-      modal_contact: 'Comuníquese con nosotros al +1 514 980 6660 | +212 694 683 851',
+      modal_contact: 'Contáctenos al +212 695 433 269 para continuar la transferencia',
       modal_contact2: 'para completar la transferencia',
       modal_error: 'No se puede calcular. Verifique su conexión al servidor.',
 
@@ -324,7 +324,7 @@ const resources = {
       modal_sent: 'Betrag zum Senden:',
       modal_fees: 'Gebühren:',
       modal_total: 'Gesamtbetrag zu zahlen:',
-      modal_contact: 'Kontaktieren Sie uns unter +1 514 980 6660 | +212 694 683 851',
+      modal_contact: 'Kontaktieren Sie uns unter +212 695 433 269 um die Überweisung fortzusetzen',
       modal_contact2: 'um die Überweisung abzuschließen',
       modal_error: 'Berechnung nicht möglich. Bitte überprüfen Sie Ihre Serververbindung.',
 
