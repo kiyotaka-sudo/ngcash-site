@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import './TrustBadges.css';
+import rapiditeImg from '../assets/RapiditeLOGO.jpg';
 
 export default function TrustBadges() {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ export default function TrustBadges() {
           transition={{ duration: 0.7, ease: 'easeOut' }}
         >
           <div className="trust-icon-wrapper">
-            <img src={`${import.meta.env.BASE_URL}RapiditÃ©LOGO.jpg`} alt={t('trust_title')} className="trust-logo" />
+            <img src={rapiditeImg} alt={t('trust_title')} className="trust-logo" />
           </div>
           <h2 className="trust-title">{t('trust_title')}</h2>
           <p className="trust-desc">{t('trust_desc')}</p>

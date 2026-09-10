@@ -1,22 +1,25 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import './Services.css';
+import transfertsImg from '../assets/TransfertsInternationaux.jpg';
+import platformImg from '../assets/SupportMultiPlateforme.jpg';
+import securiteImg from '../assets/SecuriteAvancee.jpg';
 
 const services = [
   {
-    logo: '/Transferts Internationaux.jpg',
+    logo: transfertsImg,
     titleKey1: 'svc_transfer_title_1',
     titleKey2: 'svc_transfer_title_2',
     descKey: 'svc_transfer_desc',
   },
   {
-    logo: '/Support Multi-Plateforme.jpg',
+    logo: platformImg,
     titleKey1: 'svc_platform_title_1',
     titleKey2: 'svc_platform_title_2',
     descKey: 'svc_platform_desc',
   },
   {
-    logo: '/Sécurité Avancée.jpg',
+    logo: securiteImg,
     titleKey1: 'svc_security_title_1',
     titleKey2: 'svc_security_title_2',
     descKey: 'svc_security_desc',
