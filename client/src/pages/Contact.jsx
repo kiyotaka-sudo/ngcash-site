@@ -16,7 +16,7 @@ export default function Contact() {
   function handleSubmit(e) {
     e.preventDefault();
     
-    // Numéro cible NG Cash
+    // NumÃ©ro cible NG Cash
     const targetNumber = '212695433269';
     const cleanNumber = normalizePhoneNumber(targetNumber);
     
@@ -32,7 +32,7 @@ ${form.message}`;
     // Ouvrir WhatsApp dans un nouvel onglet
     window.open(link, '_blank');
     
-    // Confirmer l'action côté UI
+    // Confirmer l'action cÃ´tÃ© UI
     setStatus('success');
     setForm({ firstName: '', lastName: '', message: '' });
   }
@@ -45,7 +45,7 @@ ${form.message}`;
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
-        <img src="/contact-hero.png" alt={t('contact_banner')} className="page-banner-bg" />
+        <img src={`${import.meta.env.BASE_URL}contact-hero.png`} alt={t('contact_banner')} className="page-banner-bg" />
         <div className="page-banner-overlay" />
         <div className="page-banner-content">
           <motion.h1 

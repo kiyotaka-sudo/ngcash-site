@@ -16,7 +16,7 @@ export default function TrustBadges() {
           transition={{ duration: 0.7, ease: 'easeOut' }}
         >
           <div className="trust-icon-wrapper">
-            <img src="/RapiditéLOGO.jpg" alt={t('trust_title')} className="trust-logo" />
+            <img src={`${import.meta.env.BASE_URL}RapiditÃ©LOGO.jpg`} alt={t('trust_title')} className="trust-logo" />
           </div>
           <h2 className="trust-title">{t('trust_title')}</h2>
           <p className="trust-desc">{t('trust_desc')}</p>

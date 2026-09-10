@@ -32,7 +32,7 @@ export default function Header() {
     <header className="header">
       <div className="container header-inner">
         <Link to="/" className="logo" onClick={() => setOpen(false)}>
-          <img src="/logongcashfondblanc.jpg" alt="NG Cash" className="logo-img" />
+          <img src={`${import.meta.env.BASE_URL}logongcashfondblanc.jpg`} alt="NG Cash" className="logo-img" />
         </Link>
 
         <nav className={`nav ${open ? 'nav-open' : ''}`}>

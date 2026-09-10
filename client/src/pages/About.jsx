@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import './About.css';
 
 const values = [
-  { logo: '/RapiditéLOGO.jpg', titleKey: 'val_speed_title', descKey: 'val_speed_desc' },
+  { logo: '/RapiditÃ©LOGO.jpg', titleKey: 'val_speed_title', descKey: 'val_speed_desc' },
   { logo: '/fiabilite.jpg', titleKey: 'val_reliability_title', descKey: 'val_reliability_desc' },
   { logo: '/Transferts Internationaux.jpg', titleKey: 'val_global_title', descKey: 'val_global_desc' },
 ];
@@ -19,7 +19,7 @@ export default function About() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
-        <img src="/about-hero.png" alt={t('about_banner')} className="page-banner-bg" />
+        <img src={`${import.meta.env.BASE_URL}about-hero.png`} alt={t('about_banner')} className="page-banner-bg" />
         <div className="page-banner-overlay" />
         <div className="page-banner-content">
           <motion.h1

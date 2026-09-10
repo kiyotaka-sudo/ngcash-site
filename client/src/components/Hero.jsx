@@ -24,7 +24,7 @@ export default function Hero() {
     }
     setStatus('loading');
     
-    // Simulation du délai réseau pour l'animation
+    // Simulation du dÃ©lai rÃ©seau pour l'animation
     setTimeout(() => {
       const numAmount = Number(amount);
       const feePercentage = getFeePercentage(from);
@@ -66,7 +66,7 @@ export default function Hero() {
   return (
     <section className="hero" id="accueil">
       <video className="hero-video" autoPlay muted loop playsInline poster="/logongcashfondblanc.jpg">
-        <source src="/VideoAccueil.mp4" type="video/mp4" />
+        <source src={`${import.meta.env.BASE_URL}VideoAccueil.mp4`} type="video/mp4" />
       </video>
       <div className="hero-overlay" />
 

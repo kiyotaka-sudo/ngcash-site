@@ -9,7 +9,7 @@ export default function Livraison() {
   function handleWhatsAppRedirect() {
     const targetNumber = '212695433269';
     const cleanNumber = normalizePhoneNumber(targetNumber);
-    const whatsappMessage = `Bonjour, je souhaite faire livrer une commande (Shein/Zara/Temu). Voici les détails :`;
+    const whatsappMessage = `Bonjour, je souhaite faire livrer une commande (Shein/Zara/Temu). Voici les dÃ©tails :`;
     const link = `https://wa.me/${cleanNumber}?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(link, '_blank');
   }
@@ -22,7 +22,7 @@ export default function Livraison() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
-        <img src="/livraison-hero.png" alt={t('delivery_banner')} className="page-banner-bg" />
+        <img src={`${import.meta.env.BASE_URL}livraison-hero.png`} alt={t('delivery_banner')} className="page-banner-bg" />
         <div className="page-banner-overlay" />
         <div className="page-banner-content">
           <motion.h1 
