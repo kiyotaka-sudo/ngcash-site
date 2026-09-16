@@ -65,7 +65,7 @@ export default function Hero() {
 
   return (
     <section className="hero" id="accueil">
-      <video className="hero-video" autoPlay muted loop playsInline poster="/logongcashfondblanc.jpg">
+      <video className="hero-video" autoPlay muted loop playsInline poster={`${import.meta.env.BASE_URL}logongcashfondblanc.jpg`}>
         <source src={`${import.meta.env.BASE_URL}VideoAccueil.mp4`} type="video/mp4" />
       </video>
       <div className="hero-overlay" />
